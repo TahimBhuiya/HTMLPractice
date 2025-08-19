@@ -1,0 +1,17 @@
+.touchless{
+    text-decoration: underline;
+}
+p{
+    font-family: Montserrat;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.model{
+    font-weight: bold;
+    text-align: center;
+    font-size: 35px;
+    margin-bottom: 10px;
+}
+.order{
+    text-align: center;
+}
