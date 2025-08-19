@@ -1,0 +1,22 @@
+      .stock-price {
+        font-weight: bold;
+        color: rgb(0, 118, 0);
+      }
+      .cart-button {
+        background-color: rgb(255, 216, 20);
+        border: none;
+        height: 24px;
+        width: 95px;
+        border-radius: 12px;
+      }
+      .running {
+        font-size: 25px;
+        font-weight: bold;
+      }
+      .buy-button {
+        background-color: rgb(255, 164, 28);
+        border: none;
+        height: 24px;
+        width: 95px;
+        border-radius: 12px;
+      }
