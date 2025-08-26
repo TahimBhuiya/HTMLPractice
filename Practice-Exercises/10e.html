@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>10e</title>
+    <style>
+      .mutual-preview {
+        width: 170px;
+        display: inline-block;
+        box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15);
+        margin-right: 10px;
+        height: 250px;
+        vertical-align: top;
+      }
+      .cover-photo {
+        width: 170px;
+        display: block;
+      }
+      .animalpic {
+        width: 170px;
+        height: 150px;
+        object-fit: cover;
+      }
+      .namediv {
+        width: 170px;
+      }
+      .name {
+        font-weight: bold;
+        margin-top: 0;
+        margin-bottom: 5px;
+        margin-left: 6px;
+      }
+      .pic {
+        display: inline-block;
+      }
+      .mutual {
+        display: inline-block;
+        vertical-align: top;
+      }
+      .picandmutual {
+        margin-bottom: 7px;
+      }
+      .mutualpic {
+        width: 30px;
+        height: 30px; /* force square size */
+        border-radius: 15px; /* perfect circle */
+        margin-left: 6px;
+        object-fit: cover; /* crops if needed */
+        vertical-align: middle;
+      }
+      .nummutual {
+        margin-top: 0;
+        margin-bottom: 0;
+        margin-top: 5px;
+        color: gray;
+        font-size: 14px;
+      }
+      .addbutton {
+        background-color: blue;
+        color: white;
+        border: none;
+        border-radius: 3px;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        padding-left: 5px;
+        padding-right: 5px;
+        margin-bottom: 6px;
+        margin-left: 6px;
+        margin-top: 5px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="mutual-preview">
+      <div class="cover-photo">
+        <img class="animalpic" src="cat.jpg" alt="" />
+      </div>
+      <div class="namediv"><p class="name">Oliver</p></div>
+      <div class="picandmutual">
+        <div class="pic"><img class="mutualpic" src="dog.webp" alt="" /></div>
+        <div class="mutual"><p class="nummutual">2 mutual friends</p></div>
+      </div>
+      <div class="buttondiv"><button class="addbutton">Add Friend</button></div>
+    </div>
+
+    <div class="mutual-preview">
+      <div class="cover-photo">
+        <img class="animalpic" src="cat2.jpg" alt="" />
+      </div>
+      <div class="namediv"><p class="name">Mimi</p></div>
+      <div class="picandmutual">
+        <div class="pic"><img class="mutualpic" src="dog.webp" alt="" /></div>
+        <div class="mutual"><p class="nummutual">3 mutual friends</p></div>
+      </div>
+      <div class="buttondiv"><button class="addbutton">Add Friend</button></div>
+    </div>
+
+    <div class="mutual-preview">
+      <div class="cover-photo">
+        <img class="animalpic" src="dog.webp" alt="" />
+      </div>
+      <div class="namediv"><p class="name">Rex</p></div>
+      <div class="picandmutual">
+        <div class="pic"><img class="mutualpic" src="cat2.jpg" alt="" /></div>
+        <div class="mutual"><p class="nummutual">3 mutual friends</p></div>
+      </div>
+      <div class="buttondiv"><button class="addbutton">Add Friend</button></div>
+    </div>
+  </body>
+</html>
